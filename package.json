@@ -1,0 +1,95 @@
+{
+  "name": "kivenov-fitness",
+  "version": "0.1.38",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "preexport": "yarn run build",
+    "export": "next export",
+    "prestart": "yarn run export",
+    "start": "serve out",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "commit": "git cz"
+  },
+  "dependencies": {
+    "framer-motion": "^10.12.22",
+    "i18next": "^23.3.0",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "js-cookie": "^3.0.5",
+    "lottie-react": "^2.4.0",
+    "next": "^13.4.2",
+    "next-i18next": "^13.2.2",
+    "next-language-detector": "^1.0.2",
+    "next-router": "^1.3.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2",
+    "react-imask": "^7.1.3",
+    "react-intersection-observer": "^9.5.2",
+    "react-otp-input": "^3.0.2",
+    "react-router-dom": "^6.4.1",
+    "react-transition-group": "^4.4.5",
+    "react-use": "^17.4.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "^10.0.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/react-hooks": "^5.0.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-transition-group": "^4.4.5",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "autoprefixer": "^10.1.0",
+    "commitizen": "^4.3.0",
+    "cz": "^1.8.2",
+    "cz-customizable": "^7.0.0",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-react": "^7.33.0",
+    "husky": "^8.0.3",
+    "isomorphic-unfetch": "^3.1.0",
+    "lint-staged": "^10.5.3",
+    "postcss": "^8.2.4",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.2.1",
+    "serve": "^14.0.1",
+    "swr": "^0.5.7",
+    "tailwindcss": "^3.1.2",
+    "tailwindcss-safe-area": "^0.3.0",
+    "typescript": "^4.7.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --cache --write",
+      "eslint --quiet --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./config/git/commitizen.js"
+    }
+  },
+  "engines": {
+    "node": "~16.20.0",
+    "yarn": "~1.22.19"
+  }
+}

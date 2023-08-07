@@ -1,0 +1,66 @@
+:root {
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --color-primary: rgb(208, 136, 132, 1);
+  --color-primary-hover: rgba(172, 106, 102, 1);
+
+  --color-gray: rgb(250, 250, 250, 1);
+  --color-gray-light: rgb(179, 185, 197, 1);
+  --color-border: rgb(206, 208, 214, 1);
+  --color-border-light: rgb(232, 232, 232, 1);
+  --color-surface: rgb(248, 248, 248, 1);
+
+  --color-bg-header: rgb(14, 14, 16, 1);
+
+  --font-h1-size: 47px;
+  --font-h1-height: 47px;
+  --font-h2-size: 47px;
+  --font-h2-height: 52px;
+  --font-h3-size: 20px;
+  --font-h3-height: 30px;
+  --font-h4-size: 18px;
+  --font-h4-height: 21px;
+  --font-h5-size: 12px;
+  --font-h5-height: 20px;
+  --font-t2-size: 24px;
+  --font-t2-height: 34px;
+  --font-p1-size: 12px;
+  --font-p1-height: 14px;
+  --font-p2-size: 47px;
+  --font-p2-height: 52px;
+  --font-p3-size: 20px;
+  --font-p3-height: 22px;
+  --font-p4-size: 12px;
+  --font-p4-height: 18px;
+}
+
+.mode-dark {
+  --color-transparent: transparent;
+  --color-current: currentColor;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --font-h1-size: 85px;
+    --font-h1-height: 82px;
+    --font-h2-size: 69px;
+    --font-h2-height: 76px;
+    --font-h3-size: 48px;
+    --font-h3-height: 56px;
+    --font-h4-size: 32px;
+    --font-h4-height: 42px;
+    --font-h5-size: 24px;
+    --font-h5-height: 32px;
+    --font-t2-size: 80px;
+    --font-t2-height: 88px;
+    --font-p1-size: 32px;
+    --font-p1-height: 42px;
+    --font-p2-size: 69px;
+    --font-p2-height: 76px;
+    --font-p3-size: 20px;
+    --font-p3-height: 22px;
+    --font-p4-size: 18px;
+    --font-p4-height: 20px;
+  }
+}
