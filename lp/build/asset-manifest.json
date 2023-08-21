@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/lp_itcomm/static/css/main.fbb0bc9b.css",
-    "main.js": "/lp_itcomm/static/js/main.188e1c5e.js",
+    "main.css": "/lp_itcomm/static/css/main.51027aaf.css",
+    "main.js": "/lp_itcomm/static/js/main.9636cbca.js",
     "static/js/787.ca822a80.chunk.js": "/lp_itcomm/static/js/787.ca822a80.chunk.js",
     "static/media/main_image.png": "/lp_itcomm/static/media/main_image.ac39f92679f8bc2d0006.png",
+    "static/media/image_1.png": "/lp_itcomm/static/media/image_1.d6e00eaad86566d312c0.png",
+    "static/media/image_3.png": "/lp_itcomm/static/media/image_3.94faaaf9c91c5c55f0b7.png",
+    "static/media/image_2.png": "/lp_itcomm/static/media/image_2.18e05ff9e32f30c90302.png",
     "static/media/Manrope-ExtraBold.ttf": "/lp_itcomm/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
     "static/media/Manrope-SemiBold.ttf": "/lp_itcomm/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/lp_itcomm/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
@@ -13,12 +16,12 @@
     "static/media/Manrope-ExtraLight.ttf": "/lp_itcomm/static/media/Manrope-ExtraLight.d0721272b8d9dd2d2d0f.ttf",
     "static/media/logo.png": "/lp_itcomm/static/media/logo.3ea41b1c063e03785c52.png",
     "index.html": "/lp_itcomm/index.html",
-    "main.fbb0bc9b.css.map": "/lp_itcomm/static/css/main.fbb0bc9b.css.map",
-    "main.188e1c5e.js.map": "/lp_itcomm/static/js/main.188e1c5e.js.map",
+    "main.51027aaf.css.map": "/lp_itcomm/static/css/main.51027aaf.css.map",
+    "main.9636cbca.js.map": "/lp_itcomm/static/js/main.9636cbca.js.map",
     "787.ca822a80.chunk.js.map": "/lp_itcomm/static/js/787.ca822a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb0bc9b.css",
-    "static/js/main.188e1c5e.js"
+    "static/css/main.51027aaf.css",
+    "static/js/main.9636cbca.js"
   ]
 }
