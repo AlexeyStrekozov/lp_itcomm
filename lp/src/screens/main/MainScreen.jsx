@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import logo from './image/logo.png';
 import Button from '../../components/Button/Button';
 import './style.css';
@@ -11,7 +11,7 @@ class MainScreen extends Component {
                 <img src={logo} />
                 <nav className='Main-nav'>
                     <a href="#AboutUs" className='Main_nav_item button_text'>О нас</a>
-                    <a href="#" className='Main_nav_item button_text'>Услуги</a>
+                    <a href="#Services" className='Main_nav_item button_text'>Услуги</a>
                     <a href="#" className='Main_nav_item button_text'>Реализованные проекты</a>
                     <a href="#" className='Main_nav_item button_text'>Рекомендации</a>
                     <a href="#" className='Main_nav_item button_text'>Контакты</a>
