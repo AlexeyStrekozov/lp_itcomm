@@ -1,0 +1,25 @@
+.SystemIntegration {
+    margin-bottom: 110px;
+}
+
+.SystemIntegration-wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 40px;
+}
+
+.SystemIntegration-card {
+    width: 400px;
+    height: 400px;
+}
+
+.SystemIntegration-text {
+    width: 270px;
+}
+
+.SystemIntegration-buttons {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 40px;
+}
