@@ -1,0 +1,31 @@
+.AboutUs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.AboutUs-image {
+    margin-right: 60px;
+}
+
+.AboutUs-image-up {
+    margin-bottom: 20px;
+}
+
+.AboutUs-image-up-item {
+    height: 330px;
+    width: 660px;
+}
+
+.AboutUs-image-down-item {
+    height: 330px;
+    width: 320px;
+}
+
+.AboutUs-margin-right {
+    margin-right: 20px;
+}
+
+.AboutUs-margin-bottom {
+    margin-bottom: 40px;
+}

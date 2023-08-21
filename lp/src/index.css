@@ -66,3 +66,26 @@ code {
   font-family: "ManropeMedium";
   font-size: 16px;
 }
+
+.car_title {
+  font-family: "ManropeMedium";
+  font-weight: 700;
+  font-size: 35px;
+  color: #000;
+}
+
+.car_title_red {
+  color: #AB0B0A;
+}
+
+.name_text {
+  font-family: "ManropeRegular";
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.main_text {
+  font-family: "ManropeRegular";
+  font-size: 20px;
+  font-weight: 400;
+}
