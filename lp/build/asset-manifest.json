@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f64576fc.css",
-    "main.js": "/static/js/main.abc42263.js",
-    "static/js/787.ca822a80.chunk.js": "/static/js/787.ca822a80.chunk.js",
-    "static/media/main_image.png": "/static/media/main_image.ac39f92679f8bc2d0006.png",
-    "static/media/Manrope-ExtraBold.ttf": "/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
-    "static/media/Manrope-SemiBold.ttf": "/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
-    "static/media/Manrope-Medium.ttf": "/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
-    "static/media/Manrope-Regular.ttf": "/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
-    "static/media/Manrope-Bold.ttf": "/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
-    "static/media/Manrope-Light.ttf": "/static/media/Manrope-Light.2bf511c25636c7d7a4ce.ttf",
-    "static/media/Manrope-ExtraLight.ttf": "/static/media/Manrope-ExtraLight.d0721272b8d9dd2d2d0f.ttf",
-    "static/media/logo.png": "/static/media/logo.3ea41b1c063e03785c52.png",
-    "index.html": "/index.html",
-    "main.f64576fc.css.map": "/static/css/main.f64576fc.css.map",
-    "main.abc42263.js.map": "/static/js/main.abc42263.js.map",
-    "787.ca822a80.chunk.js.map": "/static/js/787.ca822a80.chunk.js.map"
+    "main.css": "/lp_itcomm/static/css/main.fbb0bc9b.css",
+    "main.js": "/lp_itcomm/static/js/main.188e1c5e.js",
+    "static/js/787.ca822a80.chunk.js": "/lp_itcomm/static/js/787.ca822a80.chunk.js",
+    "static/media/main_image.png": "/lp_itcomm/static/media/main_image.ac39f92679f8bc2d0006.png",
+    "static/media/Manrope-ExtraBold.ttf": "/lp_itcomm/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/lp_itcomm/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/lp_itcomm/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/lp_itcomm/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/Manrope-Bold.ttf": "/lp_itcomm/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
+    "static/media/Manrope-Light.ttf": "/lp_itcomm/static/media/Manrope-Light.2bf511c25636c7d7a4ce.ttf",
+    "static/media/Manrope-ExtraLight.ttf": "/lp_itcomm/static/media/Manrope-ExtraLight.d0721272b8d9dd2d2d0f.ttf",
+    "static/media/logo.png": "/lp_itcomm/static/media/logo.3ea41b1c063e03785c52.png",
+    "index.html": "/lp_itcomm/index.html",
+    "main.fbb0bc9b.css.map": "/lp_itcomm/static/css/main.fbb0bc9b.css.map",
+    "main.188e1c5e.js.map": "/lp_itcomm/static/js/main.188e1c5e.js.map",
+    "787.ca822a80.chunk.js.map": "/lp_itcomm/static/js/787.ca822a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64576fc.css",
-    "static/js/main.abc42263.js"
+    "static/css/main.fbb0bc9b.css",
+    "static/js/main.188e1c5e.js"
   ]
 }

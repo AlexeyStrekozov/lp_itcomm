@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from 'image/logo.png';
+import logo from './image/logo.png';
 import Button from '../../components/Button/Button.js';
 import './style.css';
 
