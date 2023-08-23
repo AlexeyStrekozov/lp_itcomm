@@ -1,14 +1,88 @@
-.CompletedProjects {
-    margin-bottom: 110px;
+@media only screen and (min-width: 320px) {
+    .CompletedProjects {
+        margin-bottom: 40px;
+    }
+
+
+    .CompletedProjects-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
 
-.CompletedProjects-wrapper {
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-gap: 40px 80px;
+
+@media only screen and (min-width: 600px) {
+    .CompletedProjects {
+        margin-bottom: 40px;
+    }
+
+    .CompletedProjects-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
 
-.CompletedProjects-card {
-    width: 600px;
-    height: 304px;
+
+@media only screen and (min-width: 768px) {
+    .CompletedProjects {
+        margin-bottom: 80px;
+    }
+
+
+    .CompletedProjects-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .CompletedProjects {
+        margin-bottom: 80px;
+    }
+
+    .CompletedProjects-wrapper {
+        display: grid;
+        grid-template-columns: 445px 445px;
+        grid-gap: 40px;
+    }
+
+    .CompletedProjects-card {
+        width: 445px;
+        height: 235px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .CompletedProjects {
+        margin-bottom: 110px;
+    }
+
+    .CompletedProjects-wrapper {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-gap: 40px 80px;
+    }
+
+    .CompletedProjects-card {
+        width: 600px;
+        height: 304px;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .CompletedProjects {
+        margin-bottom: 110px;
+    }
+
+    .CompletedProjects-wrapper {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-gap: 40px 80px;
+    }
+
+    .CompletedProjects-card {
+        width: 600px;
+        height: 304px;
+    }
+
 }

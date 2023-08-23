@@ -1,25 +1,152 @@
-.SystemIntegration {
-    margin-bottom: 110px;
+@media only screen and (min-width: 320px) {
+    .SystemIntegration {
+        margin-bottom: 40px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-gap: 10px;
+    }
+
+    .SystemIntegration-card {
+        width: 100%;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
-.SystemIntegration-wrapper {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-gap: 40px;
+@media only screen and (min-width: 600px) {
+    .SystemIntegration {
+        margin-bottom: 80px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 260px 260px;
+        grid-gap: 10px;
+    }
+
+    .SystemIntegration-card {
+        width: 260px;
+        height: 260px;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
-.SystemIntegration-card {
-    width: 400px;
-    height: 400px;
+@media only screen and (min-width: 768px) {
+    .SystemIntegration {
+        margin-bottom: 80px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 340px 340px;
+        grid-gap: 10px;
+    }
+
+    .SystemIntegration-card {
+        width: 340px;
+        height: 340px;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
-.SystemIntegration-text {
-    width: 270px;
+@media only screen and (min-width: 992px) {
+    .SystemIntegration {
+        margin-bottom: 80px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-gap: 20px;
+    }
+
+    .SystemIntegration-card {
+        width: 300px;
+        height: 300px;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 40px;
+    }
 }
 
-.SystemIntegration-buttons {
-    display: flex;
-    align-items: end;
-    flex-direction: column;
-    margin-top: 40px;
+@media only screen and (min-width: 1200px) {
+    .SystemIntegration {
+        margin-bottom: 110px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-gap: 40px;
+    }
+
+    .SystemIntegration-card {
+        width: 400px;
+        height: 400px;
+    }
+
+    .SystemIntegration-text {
+        width: 270px;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1450px) {
+    .SystemIntegration {
+        margin-bottom: 110px;
+    }
+
+    .SystemIntegration-wrapper {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-gap: 40px;
+    }
+
+    .SystemIntegration-card {
+        width: 400px;
+        height: 400px;
+    }
+
+    .SystemIntegration-text {
+        width: 270px;
+    }
+
+    .SystemIntegration-buttons {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
 }

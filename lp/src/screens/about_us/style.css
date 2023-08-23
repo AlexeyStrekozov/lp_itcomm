@@ -1,32 +1,206 @@
-.AboutUs-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-    margin-bottom: 110px;
+@media only screen and (min-width: 320px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .AboutUs-image {
+        margin-top: 30px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        width: 100%;
+    }
+
+    .AboutUs-image-down-item {
+        width: 47%;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 20px;
+    }
 }
 
-.AboutUs-image {
-    margin-right: 60px;
+@media only screen and (min-width: 600px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+        flex-direction: column-reverse;
+
+    }
+
+    .AboutUs-image {
+        margin-top: 30px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        width: 100%;
+    }
+
+    .AboutUs-image-down-item {
+        width: 48%;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 20px;
+    }
 }
 
-.AboutUs-image-up {
-    margin-bottom: 20px;
+@media only screen and (min-width: 768px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+        flex-direction: column-reverse;
+
+    }
+
+    .AboutUs-image {
+        margin-top: 30px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        width: 100%;
+    }
+
+    .AboutUs-image-down-item {
+        width: 48%;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 20px;
+    }
 }
 
-.AboutUs-image-up-item {
-    height: 330px;
-    width: 660px;
+@media only screen and (min-width: 992px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 110px;
+        flex-direction: row;
+    }
+
+    .AboutUs-image {
+        margin-right: 60px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        height: 230px;
+        width: 460px;
+    }
+
+    .AboutUs-image-down-item {
+        height: 230px;
+        width: 220px;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 40px;
+    }
 }
 
-.AboutUs-image-down-item {
-    height: 330px;
-    width: 320px;
+@media only screen and (min-width: 1200px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 110px;
+    }
+
+    .AboutUs-image {
+        margin-right: 60px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        height: 330px;
+        width: 660px;
+    }
+
+    .AboutUs-image-down-item {
+        height: 330px;
+        width: 320px;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 40px;
+    }
 }
 
-.AboutUs-margin-right {
-    margin-right: 20px;
-}
+@media only screen and (min-width: 1450px) {
+    .AboutUs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 110px;
+    }
 
-.AboutUs-margin-bottom {
-    margin-bottom: 40px;
+    .AboutUs-image {
+        margin-right: 60px;
+    }
+
+    .AboutUs-image-up {
+        margin-bottom: 20px;
+    }
+
+    .AboutUs-image-up-item {
+        height: 330px;
+        width: 660px;
+    }
+
+    .AboutUs-image-down-item {
+        height: 330px;
+        width: 320px;
+    }
+
+    .AboutUs-margin-right {
+        margin-right: 20px;
+    }
+
+    .AboutUs-margin-bottom {
+        margin-bottom: 40px;
+    }
 }

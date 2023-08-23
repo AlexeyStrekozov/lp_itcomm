@@ -8,7 +8,7 @@ class MainScreen extends Component {
     render() {
         return <section className="Main">
             <header className="Main-header container">
-                <img src={logo} />
+                <img className='Main-header-logo' src={logo} />
                 <nav className='Main-nav'>
                     <a href="#AboutUs" className='Main_nav_item button_text'>О нас</a>
                     <a href="#Services" className='Main_nav_item button_text'>Услуги</a>

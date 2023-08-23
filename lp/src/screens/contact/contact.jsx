@@ -53,7 +53,7 @@ export default function Contact() {
                             </a>
 
                         </div>
-                        <iframe className='Contact-map' src="https://yandex.ru/map-widget/v1/?um=constructor%3A2c304a933d8912f797beaa49049072b4d348766b82f1e195fefeb9d4fba25be2&amp;source=constructor" width="621" height="375" frameborder="0"></iframe>
+                        <iframe className='Contact-map' src="https://yandex.ru/map-widget/v1/?um=constructor%3A2c304a933d8912f797beaa49049072b4d348766b82f1e195fefeb9d4fba25be2&amp;source=constructor" frameborder="0"></iframe>
                     </div>
                 </div>
 
