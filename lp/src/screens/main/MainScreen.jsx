@@ -12,9 +12,9 @@ class MainScreen extends Component {
                 <nav className='Main-nav'>
                     <a href="#AboutUs" className='Main_nav_item button_text'>О нас</a>
                     <a href="#Services" className='Main_nav_item button_text'>Услуги</a>
-                    <a href="#" className='Main_nav_item button_text'>Реализованные проекты</a>
-                    <a href="#" className='Main_nav_item button_text'>Рекомендации</a>
-                    <a href="#" className='Main_nav_item button_text'>Контакты</a>
+                    <a href="#CompletedProjects" className='Main_nav_item button_text'>Реализованные проекты</a>
+                    <a href="#LettersRecommendation" className='Main_nav_item button_text'>Рекомендации</a>
+                    <a href="#Contact" className='Main_nav_item button_text'>Контакты</a>
                 </nav>
             </header>
             <div className='container'>
