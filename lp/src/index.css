@@ -90,3 +90,11 @@ code {
   font-size: 20px;
   font-weight: 400;
 }
+
+.link_text {
+  font-family: "ManropeLight";
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+}

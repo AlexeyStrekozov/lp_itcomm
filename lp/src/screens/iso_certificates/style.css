@@ -1,0 +1,43 @@
+.IsoCertificates {
+    margin-bottom: 110px;
+}
+
+
+.IsoCertificates-card {
+    width: 400px;
+    height: 550px;
+    flex-direction: column;
+    max-width: 25rem;
+    position: relative;
+    padding: 4px;
+}
+
+.IsoCertificates-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.IsoCertificates-controls {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.IsoCertificates-controls button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background-color: #fff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.IsoCertificates-controls button:nth-child(1) {
+    margin-right: 20px;
+}
