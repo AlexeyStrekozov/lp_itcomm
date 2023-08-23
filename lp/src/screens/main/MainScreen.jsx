@@ -23,7 +23,7 @@ class MainScreen extends Component {
                     ТЕЛЕКОММУНИКАЦИЙ<br />
                     И СИСТЕМНОЙ ИНТЕГРАЦИИ
                 </div>
-                <Button title='IT-COMM' />
+                <Button link="#AboutUs" title='IT-COMM' />
             </div>
         </section>
 

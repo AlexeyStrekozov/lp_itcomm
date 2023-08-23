@@ -19,9 +19,8 @@ class Services extends Component {
                     <img className='Services-img' src={image} />
                 </div>
                 <div className='Services-buttons'>
-                    <Button title='Контакты' />
+                    <Button link="#Contact" title='Контакты' />
                 </div>
-
             </div>
         </section>
 

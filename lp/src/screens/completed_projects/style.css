@@ -1,0 +1,14 @@
+.CompletedProjects {
+    margin-bottom: 110px;
+}
+
+.CompletedProjects-wrapper {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-gap: 40px 80px;
+}
+
+.CompletedProjects-card {
+    width: 600px;
+    height: 304px;
+}

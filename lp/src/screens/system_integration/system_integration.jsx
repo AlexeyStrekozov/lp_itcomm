@@ -22,7 +22,7 @@ class SystemIntegration extends Component {
                     ))}
                 </div>
                 <div className='SystemIntegration-buttons'>
-                    <Button title='Контакты' />
+                    <Button link="#Contact" title='Контакты' />
                 </div>
             </div>
         </section>
