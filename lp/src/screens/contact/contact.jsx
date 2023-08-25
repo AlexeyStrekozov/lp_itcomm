@@ -24,7 +24,7 @@ export default function Contact() {
                                 <div className='link_text Contact-data-mr-b'><a href="mailto:info@it-comm.kz" className='link_text'>info@it-comm.kz</a></div>
                             </div>
                             <div className='Contact-address button_text Contact-data-mr-t'>Караганда<br />ул. Мустафина 9/2, оф.210</div>
-                            <a href="https://api.whatsapp.com/send?phone=77753205142" target='_blanket'>
+                            <a href="https://api.whatsapp.com/send?phone=77473133484" target='_blanket'>
                                 <div className='Contact-Button-main'>
                                     <div className='Contact-Button-wrap'>
                                         <div className='Contact-Button-title'>WhatsApp</div>
