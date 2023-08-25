@@ -4,10 +4,11 @@
         justify-content: space-between;
         margin-bottom: 40px;
         flex-direction: column-reverse;
+
     }
 
     .AboutUs-image {
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .AboutUs-image-up {
@@ -19,15 +20,15 @@
     }
 
     .AboutUs-image-down-item {
-        width: 47%;
+        width: 48%;
     }
 
     .AboutUs-margin-right {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .AboutUs-margin-bottom {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -35,13 +36,13 @@
     .AboutUs-wrapper {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 110px;
+        margin-bottom: 50px;
         flex-direction: column-reverse;
 
     }
 
     .AboutUs-image {
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .AboutUs-image-up {
@@ -61,7 +62,7 @@
     }
 
     .AboutUs-margin-bottom {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 

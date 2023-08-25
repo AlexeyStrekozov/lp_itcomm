@@ -59,8 +59,8 @@ code {
 @media only screen and (max-width: 600px) {
   .title {
     font-family: "ManropeBold";
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .button_text {
@@ -71,9 +71,9 @@ code {
   .car_title {
     font-family: "ManropeMedium";
     font-weight: 700;
-    font-size: 35px;
+    font-size: 23px;
     color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .car_title_red {
@@ -82,19 +82,19 @@ code {
 
   .name_text {
     font-family: "ManropeRegular";
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 700;
   }
 
   .main_text {
     font-family: "ManropeRegular";
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
   }
 
   .link_text {
     font-family: "ManropeLight";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: #000;
     text-decoration: none;
@@ -104,7 +104,7 @@ code {
 @media only screen and (min-width: 600px) {
   .title {
     font-family: "ManropeBold";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
   }
 
@@ -116,9 +116,9 @@ code {
   .car_title {
     font-family: "ManropeMedium";
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .car_title_red {
@@ -127,13 +127,13 @@ code {
 
   .name_text {
     font-family: "ManropeRegular";
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 700;
   }
 
   .main_text {
     font-family: "ManropeRegular";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
   }
 

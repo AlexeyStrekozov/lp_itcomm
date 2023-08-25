@@ -1,43 +1,300 @@
-.IsoCertificates {
-    margin-bottom: 110px;
+@media only screen and (min-width: 320px) {
+    .IsoCertificates {
+        margin-bottom: 40px;
+    }
+
+    .IsoCertificates-card {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 40px;
+        height: 40px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 10px;
+        height: 10px
+    }
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 10px;
+    }
 }
 
+@media only screen and (min-width: 600px) {
+    .IsoCertificates {
+        margin-bottom: 40px;
+    }
 
-.IsoCertificates-card {
-    width: 400px;
-    height: 550px;
-    flex-direction: column;
-    max-width: 25rem;
-    position: relative;
-    padding: 4px;
+    .IsoCertificates-card {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 40px;
+        height: 40px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 10px;
+        height: 10px
+    }
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 10px;
+    }
 }
 
-.IsoCertificates-img {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    object-fit: cover;
+@media only screen and (min-width: 768px) {
+    .IsoCertificates {
+        margin-bottom: 110px;
+    }
+
+
+    .IsoCertificates-card {
+        width: 400px;
+        height: 550px;
+        flex-direction: column;
+        max-width: 25rem;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 14px;
+        height: 16px
+    }
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 20px;
+    }
 }
 
-.IsoCertificates-controls {
-    display: flex;
-    justify-content: start;
-    margin-top: 20px;
+@media only screen and (min-width: 992px) {
+    .IsoCertificates {
+        margin-bottom: 110px;
+    }
+
+
+    .IsoCertificates-card {
+        width: 400px;
+        height: 550px;
+        flex-direction: column;
+        max-width: 25rem;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 14px;
+        height: 16px
+    }
+
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 20px;
+    }
 }
 
-.IsoCertificates-controls button {
-    width: 60px;
-    height: 60px;
-    border: 0;
-    background-color: #fff;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.5s ease-out;
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+@media only screen and (min-width: 1200px) {
+    .IsoCertificates {
+        margin-bottom: 110px;
+    }
+
+
+    .IsoCertificates-card {
+        width: 400px;
+        height: 550px;
+        flex-direction: column;
+        max-width: 25rem;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 14px;
+        height: 16px
+    }
+
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 20px;
+    }
 }
 
-.IsoCertificates-controls button:nth-child(1) {
-    margin-right: 20px;
+@media only screen and (min-width: 1450px) {
+    .IsoCertificates {
+        margin-bottom: 110px;
+    }
+
+    .IsoCertificates-card {
+        width: 400px;
+        height: 550px;
+        flex-direction: column;
+        max-width: 25rem;
+        position: relative;
+        padding: 4px;
+    }
+
+    .IsoCertificates-img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .IsoCertificates-controls {
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .IsoCertificates-controls button {
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #fff;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-out;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .IsoCertificates-controls button svg {
+        width: 14px;
+        height: 16px
+    }
+
+    .IsoCertificates-controls button:nth-child(1) {
+        margin-right: 20px;
+    }
 }

@@ -1,17 +1,159 @@
-.Button-main {
-    display: inline-block;
-    border-radius: 100px;
-    padding: 9px 9px 9px 25px;
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+@media only screen and (min-width: 320px) {
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 10px;
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .Button-icon {
+        width: 25px;
+        height: 25px;
+    }
 }
 
-.Button-wrap {
-    display: flex;
-    align-items: center;
+@media only screen and (min-width: 600px) {
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 15px;
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .Button-icon {
+        width: 30px;
+        height: 30px;
+    }
 }
 
-.Button-title {
-    margin-right: 25px;
-    color: #000;
-    text-decoration: none;
+@media only screen and (min-width: 768px) {
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 25px;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .Button-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 25px;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .Button-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 25px;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .Button-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1450px) {
+
+    .Button-main {
+        display: inline-block;
+        border-radius: 100px;
+        padding: 9px 9px 9px 25px;
+        box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .Button-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .Button-title {
+        margin-right: 25px;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .Button-icon {
+        width: 40px;
+        height: 40px;
+    }
 }
