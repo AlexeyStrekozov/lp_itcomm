@@ -8,6 +8,8 @@ import img1 from './images/rec_1.jpg';
 import img2 from './images/rec_2.jpg';
 import img3 from './images/rec_3.jpg';
 import img4 from './images/rec_4.jpg';
+import img5 from './images/rec_5.jpg';
+
 
 export default function LettersRecommendation() {
     const [sliderRef, setSliderRef] = useState(null)
@@ -33,7 +35,7 @@ export default function LettersRecommendation() {
         ],
     }
 
-    const cards = [img1, img2, img4, img3]
+    const cards = [img1, img2, img4, img3, img5]
 
     return (
         <section id='LettersRecommendation' className='LettersRecommendation'>
